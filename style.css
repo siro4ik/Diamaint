@@ -64,6 +64,12 @@ border-radius: 20px;
   color: #201e6c;
 }
 
+/* по z-index сделать вывод цветов на задний план */
+
+
+
+
+
 
 @media (max-width: 825px) {
   .header {
