@@ -64,10 +64,40 @@ border-radius: 20px;
   color: #201e6c;
 }
 
-/* по z-index сделать вывод цветов на задний план */
 
 
+.diamaint{
+  grid-column: span 2;
+  font-size: 6rem;
+  font-family: "Playfair Display", serif;
+}
 
+.diamaint h1{
+  position: relative;
+  top: -15rem;
+  right: -5rem;
+
+}
+
+.flower img{
+  margin-left: -60rem;
+}
+
+.mainContainer1{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
+  gap: 5px;
+}
+
+.grid-item {
+  background-color: #757AA5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #373737;
+}
 
 
 
