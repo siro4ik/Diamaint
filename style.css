@@ -68,19 +68,73 @@ border-radius: 20px;
 
 .diamaint{
   grid-column: span 2;
-  font-size: 6rem;
   font-family: "Playfair Display", serif;
 }
 
 .diamaint h1{
+  font-size: 12rem;
   position: relative;
-  top: -15rem;
-  right: -5rem;
+  top: -20rem;
+  right: -20rem;
+  color: #515076;
+
+}
+
+.secondaryMain{
+  display: flex;
+  z-index: 2;
+}
+.secondaryMain1 p{
+  font-size: 1rem;
+  font-family: "Montserrat", serif;
+  color: #828282;
+}
+.flexSecondaryMain{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  font-size: 1.2rem;
+  left: -5rem;
+  top: 5rem;
+  color: #828282;
+  font-family: "Montserrat", serif;
+}
+
+.secondaryMain1 p:first-child{
+  font-size: 2rem;
+  margin-left: -28rem;
+  margin-top: 7rem;
+  color: #63678C;
+}
+
+.secondaryMain3{
+margin-top: 5rem
+}
+.secondaryMain4{
+  margin-top: 2rem;
 
 }
 
 .flower img{
   margin-left: -60rem;
+  margin-top: -1rem;
+}
+.secondImg{
+  position: absolute;
+  margin-left: -30rem;
+  margin-bottom: -30rem;
+}
+
+.chooseProduct{
+  margin-top: 5rem ;
+  padding: 1rem;
+  width: 200px;
+  margin-left: 6.5rem;
+  border-radius: 240px;
+  background-color: #515076;
+  color: white;
+  font-family: "Montserrat", serif;
+  letter-spacing: 2px;
 }
 
 .mainContainer1{
@@ -91,7 +145,7 @@ border-radius: 20px;
 }
 
 .grid-item {
-  background-color: #757AA5;
+  background-color: #c3c5d1;
   color: white;
   display: flex;
   align-items: center;
