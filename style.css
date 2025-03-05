@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: "Montserrat", serif;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
 }
 
 a {
@@ -68,7 +69,8 @@ border-radius: 20px;
 
 .diamaint{
   grid-column: span 2;
-  font-family: "Playfair Display", serif;
+
+
 }
 
 .diamaint h1{
@@ -77,7 +79,6 @@ border-radius: 20px;
   top: -20rem;
   right: -20rem;
   color: #515076;
-
 }
 
 .secondaryMain{
@@ -86,7 +87,7 @@ border-radius: 20px;
 }
 .secondaryMain1 p{
   font-size: 1rem;
-  font-family: "Montserrat", serif;
+
   color: #828282;
 }
 .flexSecondaryMain{
@@ -97,7 +98,7 @@ border-radius: 20px;
   left: -5rem;
   top: 5rem;
   color: #828282;
-  font-family: "Montserrat", serif;
+
 }
 
 .secondaryMain1 p:first-child{
@@ -117,8 +118,13 @@ margin-top: 5rem
 
 .flower img{
   margin-left: -60rem;
-  margin-top: -1rem;
+  margin-bottom: -1rem;
 }
+.flower{
+  margin-top: -10rem;
+  z-index: -1;
+}
+
 .secondImg{
   position: absolute;
   margin-left: -30rem;
@@ -133,8 +139,45 @@ margin-top: 5rem
   border-radius: 240px;
   background-color: #515076;
   color: white;
-  font-family: "Montserrat", serif;
   letter-spacing: 2px;
+}
+
+.flowerText{
+  position: absolute;
+  bottom: 0;
+  right: 20rem;
+
+  letter-spacing: 3px;
+  line-height: 1.5rem;
+  text-align: right;
+  color: #888794;
+}
+
+.secondaryFourth{
+  margin-bottom: 55rem;
+  position: absolute;
+  color: #888794;
+  line-height: 1.5rem;
+  margin-left: -5rem;
+  font-size: 1.2rem;
+}
+
+.secondaryThird{
+  position: absolute;
+  margin-bottom: 30rem;
+  margin-left: 20rem;
+  color:#888794;
+  font-size: 1.2rem;
+}
+
+.secondaryFifth{
+  color:#757AA5;
+  position: absolute;
+  font-size: 2.5rem;
+  margin-bottom: 45rem;
+  margin-left: -25rem;
+  letter-spacing: 3px;
+
 }
 
 .mainContainer1{
@@ -145,12 +188,10 @@ margin-top: 5rem
 }
 
 .grid-item {
-  background-color: #c3c5d1;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #373737;
+  /* border: 1px solid; */
 }
 
 
