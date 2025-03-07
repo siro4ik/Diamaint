@@ -94,7 +94,9 @@ border-radius: 20px;
   display: flex;
   position: relative;
   flex-direction: column;
-  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 3px;
   left: -5rem;
   top: 5rem;
   color: #828282;
@@ -135,18 +137,17 @@ margin-top: 5rem
   margin-top: 5rem ;
   padding: 1rem;
   width: 200px;
-  margin-left: 6.5rem;
+  margin-left: 3.5rem;
   border-radius: 240px;
   background-color: #515076;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .flowerText{
   position: absolute;
   bottom: 0;
   right: 20rem;
-
   letter-spacing: 3px;
   line-height: 1.5rem;
   text-align: right;
@@ -158,8 +159,8 @@ margin-top: 5rem
   position: absolute;
   color: #888794;
   line-height: 1.5rem;
-  margin-left: -5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  letter-spacing: 3px;
 }
 
 .secondaryThird{
@@ -167,15 +168,18 @@ margin-top: 5rem
   margin-bottom: 30rem;
   margin-left: 20rem;
   color:#888794;
-  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 3px;
+
 }
 
 .secondaryFifth{
   color:#757AA5;
   position: absolute;
   font-size: 2.5rem;
-  margin-bottom: 45rem;
-  margin-left: -25rem;
+  margin-bottom: 43rem;
+  margin-left: -20rem;
   letter-spacing: 3px;
 
 }
@@ -210,7 +214,7 @@ margin-top: 5rem
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 
