@@ -206,7 +206,7 @@ margin-top: 5rem
 .mainContainer1{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
   gap: 5px;
 }
 
@@ -217,6 +217,31 @@ margin-top: 5rem
   /* border: 1px solid; */
 }
 
+.mainContainer2{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer2Text{
+margin-bottom: 5rem;
+font-size: 3rem;
+letter-spacing: 5px;
+color: #757AA5;
+}
+
+.productCards{
+  display: flex;
+}
+
+
+.cardContainer{
+  display: flex;
+  /* align-items: flex-end; */
+  flex-direction: column;
+}
 
 
 @media (max-width: 825px) {

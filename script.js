@@ -5,9 +5,13 @@
 
 
 
-document.getElementById('changeNumberButton').addEventListener('click', function() {
-  let textElement = document.getElementById('number');
-  let currentNumber = parseInt(textElement.textContent);
-  let newNumber = currentNumber + 1;
-  textElement.textContent = newNumber;
+const buttons = document.querySelectorAll('.changeNumberButton');
+
+buttons.forEach(button => {
+  button.addEventListener('click', function() {
+    let textElement = document.getElementById('number');
+    let currentNumber = parseInt(textElement.textContent);
+    let newNumber = currentNumber + 1;
+    textElement.textContent = newNumber;
+  });
 });
