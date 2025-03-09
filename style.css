@@ -6,12 +6,27 @@
 
 body {
   font-family: "Playfair Display", serif;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 a {
   text-decoration: none;
   color: #515076;
+}
+
+button{
+  border: 1px solid transparent;
+  padding: 0.3rem 0.5rem;
+  border-radius: 10px;
+  transition: border-color 0.2s ease;
+}
+
+button:active{
+  background-color: #dbdbece1;
+}
+
+button:hover{
+  border-color: #201e6c;
 }
 
 .header {
@@ -226,21 +241,63 @@ margin-top: 5rem
 }
 
 .mainContainer2Text{
-margin-bottom: 5rem;
+margin-bottom: 2rem;
 font-size: 3rem;
 letter-spacing: 5px;
 color: #757AA5;
 }
 
+.productImage2{
+  display: flex;
+  flex-direction: column;
+}
+
+.priceButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.currentPrice{
+  margin-right: auto;
+  font-size: 1.3rem;
+  color:#515076;
+  letter-spacing: 0;
+}
+
+.currentPrice:nth-child(2){
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.lastPrice{
+  text-decoration: line-through;
+  color:#A5A3B9;
+  letter-spacing: 0;
+}
+
+.productTitle{
+  color:#515076;
+  padding-bottom: 2rem;
+}
+
+.productDescription{
+  color:#A5A3B9;
+  padding-bottom: 1rem;
+}
+
 .productCards{
   display: flex;
+  align-items: flex-end;
+  margin: 3rem;
 }
 
 
 .cardContainer{
   display: flex;
-  /* align-items: flex-end; */
   flex-direction: column;
+  padding: 3rem;
 }
 
 
