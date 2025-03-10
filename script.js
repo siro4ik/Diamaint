@@ -15,3 +15,16 @@ buttons.forEach(button => {
     textElement.textContent = newNumber;
   });
 });
+
+
+document.addEventListener('scroll', function() {
+  const basket = document.querySelector('.basket');
+  const scrollPosition = window.scrollY;
+  const scrollThreshold = 50;
+
+  if (scrollPosition > scrollThreshold) {
+    basket.classList.add('sticky');
+  } else {
+    basket.classList.remove('sticky');
+  }
+});
