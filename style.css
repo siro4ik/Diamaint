@@ -442,6 +442,7 @@ color: #757AA5;
   margin-top: 23rem;
   margin-left: 13rem;
   gap: 20px;
+  padding-bottom: 20rem;
 }
 
 .firstDiscount, .secondDiscount, .thirdDiscount {
@@ -485,12 +486,6 @@ color: #757AA5;
   line-height: 1.5rem;
 }
 
-.imgOfCollection img{
-  width: 100%;
-  height: auto;
-}
-
-
 .discountNumAndButton{
   display: flex;
 }
@@ -499,8 +494,68 @@ color: #757AA5;
   align-items: flex-end;
 }
 
+.imgOfCollection img{
+  width: 100%;
+  height: auto;
+}
 
+/* ТЕКСТ НАД ЖЕНЩИНАМИ */
 
+.bigText{
+  margin-top: 10rem;
+  font-size: 11rem;
+  color:#D6D4E7;
+  position: absolute;
+  margin-top: -12rem;
+  right: 25rem;
+}
+
+/* ЖЕНЩИНЫ */
+
+.womens{
+  display: flex;
+  background-color:#EDECF6 ;
+  padding-top: 8rem;
+}
+
+.aboutWomen{
+  margin: 10rem 10rem 0 0;
+  z-index: 2;
+}
+
+.aboutWomen p:nth-child(1){
+  font-size: 1rem;
+  line-height: 1.8rem;
+  color:#A5A3B9;
+}
+
+.aboutWomen p:nth-child(2){
+  font-size: 8rem;
+  line-height: 7rem;
+  margin-top: 3rem;
+  color:#515076;
+}
+
+.aboutWomen p:nth-child(3){
+  font-size: 5rem;
+  line-height: 7rem;
+  margin-bottom: 3rem;
+  color:#515076;
+}
+
+.aboutWomen p:nth-child(4){
+  font-size: 1rem;
+  line-height: 1.9rem;
+  letter-spacing: 2px;
+  color:#888794;
+}
+
+.imgUnderWomen{
+  position:absolute;
+  margin-top: -60rem;
+  right: 0;
+  z-index: 1;
+}
 
 
 @media (max-width: 825px) {
