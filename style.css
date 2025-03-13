@@ -7,7 +7,6 @@
 body {
   font-family: "Playfair Display", serif;
   letter-spacing: 3px;
-  background-color: ;
 }
 
 a {
@@ -419,6 +418,7 @@ color: #757AA5;
   position:absolute;
   margin-top:-32rem;
   transform: rotate(5deg);
+  z-index: -1;
 }
 
 .imageOfStockItem img {
@@ -431,7 +431,47 @@ color: #757AA5;
   z-index: 2;
 }
 
+/* ПРЕДЛОЖЕНИЯ СО СКИДКАМИ */
 
+.mainContainer4 {
+  display: flex;
+  height: 50rem;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23rem;
+  margin-left: 13rem;
+  gap: 20px;
+}
+
+.firstDiscount, .secondDiscount, .thirdDiscount {
+  margin: 10px;
+
+  flex-direction: column;
+  display:flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 20%;
+}
+
+.secondDiscount{
+  background-color: #c0c0d6;
+  justify-content: flex-start;
+}
+
+.objDiscount{
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+.imgOfCollection img{
+  width: 100%;
+}
+
+.discountNumAndButton{
+  display: flex;
+}
 
 
 
