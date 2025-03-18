@@ -737,6 +737,55 @@ color: #757AA5;
   width: 50rem;
 }
 
+/* ФУТЕР */
+
+
+.mainFooterContainer{
+  position: relative;
+  margin-top: 3rem;
+}
+
+.contacts {
+  position: absolute;
+  top:25%;
+  left: 20%;
+  background-color: #F7F7FA;
+  padding: 2rem 6rem;
+  box-shadow: 5px -10px 50px #9795bd;
+
+}
+
+.textContact h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #5e67b6;
+}
+
+.textContact p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  color: #828282;
+}
+
+.imageContacts img:nth-child(1){
+  padding-right:1rem;
+}
+
+.imageContacts{
+  margin-bottom: 1rem;
+}
+
+.backgroundImage{
+  -webkit-mask-image: linear-gradient(
+        to top,
+        transparent 1%,
+        white 5%,
+        white 60%,
+        transparent 90%
+    );
+}
 
 
 
